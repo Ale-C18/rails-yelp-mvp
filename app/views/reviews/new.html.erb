@@ -4,3 +4,6 @@
   <%= f.input :rating %>
   <%= f.submit "Submit review", class: "btn btn-primary" %>
 <% end %>
+<div>
+  <%= link_to "Return to Restaurant",  restaurant_path(@restaurant)%>
+</div>
